@@ -49,14 +49,18 @@ const Router = () => {
                     component={Public}
                 />
                 <Route 
-                exact path="/protected" 
-                component={Protected} 
+                    exact path="/protected" 
+                    component={Protected} 
                 />
                 <Route 
-                exact path="/profile" 
-                component={Profile}
+                    exact path="/profile" 
+                    component={Profile}
                 />
                 <Route 
+                    component={Public}
+                />
+                <Route
+                    exact path="/cat"
                     component={Public}
                 />
             </Switch>
