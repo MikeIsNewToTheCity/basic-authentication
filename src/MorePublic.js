@@ -1,12 +1,12 @@
 import React from 'react';
 import Container from './Container';
 
-const Public = () => (
+const MorePublic = () => (
     <Container>
         <h1>
-            Public Route
+            More Public Route
         </h1>
     </Container>
 );
 
-export default Public;
+export default MorePublic;

@@ -10,6 +10,7 @@ import {
 
 import Nav from './Nav';
 import Public from './Public';
+import MorePublic from './MorePublic';
 import Profile from './Profile';
 import Protected from './Protected';
 
@@ -55,6 +56,10 @@ const Router = () => {
                 <Route 
                     exact path="/profile" 
                     component={Profile}
+                />
+                <Route 
+                    exact path="/morepublic" 
+                    component={MorePublic}
                 />
                 <Route 
                     component={Public}
